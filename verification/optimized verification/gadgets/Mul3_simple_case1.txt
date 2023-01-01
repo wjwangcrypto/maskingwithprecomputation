@@ -1,0 +1,7 @@
+proc Mul
+	~inputs x1:4,y1:4
+	outputs z1:4
+	~randoms r1:4
+	mode user
+	u1=x1^y1;r1;x1^((x1^y1)^r1);(x1^((x1^y1)^r1))&y3;(y3^True)&((x1^y1)^r1);((x1^y1)^r1)^(x1&y3);y1^(((x1^y1)^r1)^(x1&y3));(y1^((x1^y1)^r1)^(x1&y3))&x3;(x3^True)&(((x1^y1)^r1)^(x1&y3));(x1^y1)^r1)^(x1&y3)^(x3&y1)
+	u2=x2^y2;r2;x2^((x2^y2)^r2);(x2^((x2^y2)^r2))&y3;(y3^True)&((x2^y2)^r2);((x2^y2)^r2)^(x2&y3);y2^(((x2^y2)^r2)^(x2&y3));(y2^((x2^y2)^r2)^(x2&y3))&x3;(x3^True)&(((x2^y2)^r2)^(x2&y3));(x2^y2)^r2)^(x2&y3)^(x3&y2)

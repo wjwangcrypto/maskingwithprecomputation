@@ -1,0 +1,16 @@
+proc Mul
+	inputs x1:3,y1:3
+	outputs z1:3
+	randoms r1:3
+	u1=x1^y1
+	r1=u1^r1
+	x1=x1^r1
+	y1=y1^r1
+	t1=r1^x2
+	t1=t1^y2
+	t1=t1&r1
+	aux=x2&y1
+	t1=aux^t1
+	aux=x2&y2
+	z2=aux^t1
+	z1=r1

@@ -1,0 +1,16 @@
+proc Mul
+	~inputs x1:8,y1:8
+	outputs z1:8
+	~randoms r1:8
+	u1=x1,y1,r1
+	u2=x2,y2,r2
+	u3=x3,y3,r3
+	u4=x4,y4,r4
+	u5=x5,y5,r5
+	u6=x6,y6,r6
+	z7=(x7&y7)^(r1^(x1^y1)^(x1&y7)^(x7&y1))
+	z7=z7^(r2^(x2^y2)^(x2&y7)^(x7&y2))
+	z7=z7^(r3^(x3^y3)^(x3&y7)^(x7&y3))
+	z7=z7^(r4^(x4^y4)^(x4&y7)^(x7&y4))
+	z7=z7^(r5^(x5^y5)^(x5&y7)^(x7&y5))
+	z7=z7^(r6^(x6^y6)^(x6&y7)^(x7&y6))

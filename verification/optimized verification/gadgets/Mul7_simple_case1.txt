@@ -1,0 +1,11 @@
+proc Mul
+	~inputs x1:8,y1:8
+	outputs z1:8
+	~randoms r1:8
+	mode user
+	u1=x1^y1;(x1^y1)^r1;x1^r1;(x1^r1)&y7;(y7^True)&r1;r1^(x1&y7);y1^(r1^(x1&y7));(y1^(r1^(x1&y7)))&x7;(x7^True)&(r1^(x1&y7));r1^(x1&y7)^(x7&y1)
+	u2=x2^y2;(x2^y2)^r2;x2^r2;(x2^r2)&y7;(y7^True)&r2;r2^(x2&y7);y2^(r2^(x2&y7));(y2^(r2^(x2&y7)))&x7;(x7^True)&(r2^(x2&y7));r2^(x2&y7)^(x7&y2)
+	u3=x3^y3;(x3^y3)^r3;x3^r3;(x3^r3)&y7;(y7^True)&r3;r3^(x3&y7);y3^(r3^(x3&y7));(y3^(r3^(x3&y7)))&x7;(x7^True)&(r3^(x3&y7));r3^(x3&y7)^(x7&y3)
+	u4=x4^y4;(x4^y4)^r4;x4^r4;(x4^r4)&y7;(y7^True)&r4;r4^(x4&y7);y4^(r4^(x4&y7));(y4^(r4^(x4&y7)))&x7;(x7^True)&(r4^(x4&y7));r4^(x4&y7)^(x7&y4)
+	u5=x5^y5;(x5^y5)^r5;x5^r5;(x5^r5)&y7;(y7^True)&r5;r5^(x5&y7);y5^(r5^(x5&y7));(y5^(r5^(x5&y7)))&x7;(x7^True)&(r5^(x5&y7));r5^(x5&y7)^(x7&y5)
+	u6=x6^y6;(x6^y6)^r6;x6^r6;(x6^r6)&y7;(y7^True)&r6;r6^(x6&y7);y6^(r6^(x6&y7));(y6^(r6^(x6&y7)))&x7;(x7^True)&(r6^(x6&y7));r6^(x6&y7)^(x7&y6)
